@@ -82,6 +82,26 @@ img{
     color: #171819;
     text-align: center;
 }
+.deposit{
+    padding: 10px;
+    background: rgb(255, 101, 101);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.deposit h3{
+    color: rgb(119, 0, 0);
+    font-weight: 900;
+}
+.deposit p{
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+}
 
 @media (max-width: 574px){
     .shared, .private{
