@@ -8,6 +8,10 @@
     color: #602800;
     font-weight: 500;
 }
+::selection {
+    background-color: #602800; /* Змінюємо колір фону виділеного тексту */
+    color: #ffffff; /* Змінюємо колір тексту виділеного тексту */
+}
 img{
     width: 250px;
 }

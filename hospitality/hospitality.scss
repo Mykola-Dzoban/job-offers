@@ -57,6 +57,10 @@ h1{
       top: 0;
     }
   }
+  ::selection {
+    background-color: #602800; /* Змінюємо колір фону виділеного тексту */
+    color: #ffffff; /* Змінюємо колір тексту виділеного тексту */
+}
 @media (max-width: 574px){
     .logo_text{
         font-size: 2rem;
