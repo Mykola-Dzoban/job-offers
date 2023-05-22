@@ -162,6 +162,14 @@ img{
 .all_vacancies li a{
   font-size: 25px;
 }
+.decline{
+  text-decoration: line-through;
+  color: red;
+}
+.yellow{
+  width: fit-content;
+  background: #fdff71;
+}
 @media (max-width: 574px){
   .shared, .private{
     width: 100%;
