@@ -148,6 +148,20 @@ img{
   background: rgb(255, 255, 255);
   border-radius: 15px;
 }
+.all_vacancies{
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.all_vacancies li{
+  list-style: none;
+}
+.all_vacancies li a{
+  font-size: 25px;
+}
 @media (max-width: 574px){
   .shared, .private{
     width: 100%;
