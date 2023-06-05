@@ -170,6 +170,19 @@ img{
   width: fit-content;
   background: #fdff71;
 }
+.accommodation_link{
+  font-size: 2rem;
+}
+.accommodation_not{
+  background: #ff7171;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
 @media (max-width: 574px){
   .shared, .private{
     width: 100%;
